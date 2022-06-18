@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.box-one {
+    color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient( red, green, yellow);
+}
+
+.box-two {
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top, black, hotpink, blue);
+}
+
+.box-three {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to left, black, hotpink, blue);
+}
+
+.box-four {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, black, hotpink, blue);
+}
+
+.box-five {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top right, black, hotpink, blue);
+}
+
+.box-six {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top left, black, hotpink, blue);
+}
+
+.sub-main {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.box-seven {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to left bottom, black, hotpink, blue);
+}
+
+.box-eight {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right bottom, black, hotpink, blue);
+}
+
+.box-nine {
+    /* background-color: red; */
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(0, 128, 0, .6), rgb(255, 255, 0, .10), rgb(255, 105, 180, .4));
+}
+
+.box-ten {
+    color: white;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: repeating-linear-gradient(green 15%, yellow 20%, blue 25%);
+}
+
+p {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    color: rebeccapurple;
+}
